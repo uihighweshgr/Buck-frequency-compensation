@@ -1,0 +1,53 @@
+C:\USERS\USER\DOWNLOADS\BUCK_COMPENSATE_TYPEIII_CLOSELOOP.CIR/CONFIG 1/SETUP1
+
+**************************
+*   DEFAULT PARAMETERS   *
+**************************
+
+***** SUM3
+
+K1 = ???
+K2 = ???
+K3 = ???
+
+***** SUM2
+
+K1 = ???
+K2 = ???
+
+***** GAIN
+
+K = ???
+
+
+**************************
+*   PASSED  PARAMETERS   *
+**************************
+
+***** xinstance 	SUM3#0	
+***** xcallname(s) 	X1	
+***** xparentname 	mainckt
+
+K1 = -1.00e+000
+K2 = 1.00e+000
+K3 = 1.00e+000
+
+***** xinstance 	SUM2#0	
+***** xcallname(s) 	X2	
+***** xparentname 	mainckt
+
+K1 = -1.00e+000
+K2 = 1.00e+000
+
+***** xinstance 	GAIN#0	
+***** xcallname(s) 	XVM	
+***** xparentname 	mainckt
+
+K = 2.00e-001
+
+***** xinstance 	GAIN#1	
+***** xcallname(s) 	XH	
+***** xparentname 	mainckt
+
+K = 5.00e-001
+
